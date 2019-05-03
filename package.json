@@ -1,0 +1,27 @@
+{
+    "name": "vscode-extension-collection",
+    "displayName": "C/C++ ExtensionCollection",
+    "description": "My collection of extensions for development of C/C++",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "austin.code-gnu-global", 
+        "christian-kohler.path-intellisense", 
+        "eamodio.gitlens", 
+        "Gruntfuggly.todo-tree", 
+        "johnstoncode.svn-scm", 
+        "maximetinu.identical-sublime-monokai-csharp-theme-colorizer", 
+        "ms-python.python", 
+        "ms-vscode.cpptools", 
+        "plorefice.devicetree", 
+        "redhat.vscode-yaml", 
+        "vector-of-bool.cmake-tools", 
+        "vscode-icons-team.vscode-icons", 
+        "xulion.codescope"
+    ]
+}
