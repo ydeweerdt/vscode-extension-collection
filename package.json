@@ -1,27 +1,45 @@
 {
     "name": "vscode-extension-collection",
-    "displayName": "C/C++ ExtensionCollection",
-    "description": "My collection of extensions for development of C/C++",
+    "displayName": "My ExtensionCollection",
+    "description": "My collection of VS-Code extensions",
     "version": "0.0.1",
+    "readme": "README.md",
+    "publisher": "ydew",
+    "author": {
+      "name": "Yves Deweerdt"
+    },
+    "icon": "icons/YD.png",
+    "license": "SEE LICENSE IN LICENSE",
+    "keywords": [ "C", "C++", "C/C++", "CMake", "SVN", "Git"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ydeweerdt/vscode-extension-collection"
+    },
+    "homepage": "https://github.com/ydeweerdt/vscode-extension-collection/blob/master/README.md",
     "engines": {
-        "vscode": "^1.33.0"
+        "vscode": "^1.34.0"
     },
     "categories": [
         "Extension Packs"
     ],
-    "extensionPack": [ 
-        "austin.code-gnu-global", 
-        "christian-kohler.path-intellisense", 
-        "eamodio.gitlens", 
-        "Gruntfuggly.todo-tree", 
-        "johnstoncode.svn-scm", 
-        "maximetinu.identical-sublime-monokai-csharp-theme-colorizer", 
-        "ms-python.python", 
-        "ms-vscode.cpptools", 
-        "plorefice.devicetree", 
-        "redhat.vscode-yaml", 
-        "vector-of-bool.cmake-tools", 
-        "vscode-icons-team.vscode-icons", 
-        "xulion.codescope"
+    "extensionPack": [
+        "ms-vscode.cpptools",
+        "xulion.codescope",
+        "austin.code-gnu-global",
+        "plorefice.devicetree",
+        "vector-of-bool.cmake-tools",
+
+        "ms-python.python",
+
+        "eamodio.gitlens",
+        "johnstoncode.svn-scm",
+
+        "christian-kohler.path-intellisense",
+        "Gruntfuggly.todo-tree",
+        "vscode-icons-team.vscode-icons",
+        "maximetinu.identical-sublime-monokai-csharp-theme-colorizer",
+        "redhat.vscode-yaml",
+
+        "ms-vscode-remote.vscode-remote-extensionpack"        
     ]
 }
